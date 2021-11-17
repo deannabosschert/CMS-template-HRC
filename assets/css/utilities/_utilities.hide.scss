@@ -4,25 +4,24 @@
 
 /**
  * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-/**
- * Hide visually and from screen readers.
- */
-
-body .u-hidden {
-  display: none !important;
+.u-hidden {
+  display: none;
 }
 
-body .u-text-invisible {
+.u-visible {
+  display: block;
+}
+
+ .u-text-invisible {
   font-size: 0 !important;
   line-height: 0 !important;
   padding: 0;
   margin: 0;
 }
 
-body .u-element-invisible {
+.u-element-invisible {
   visibility: hidden;
   font-size: 0 !important;
   line-height: 0 !important;

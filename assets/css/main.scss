@@ -16,13 +16,14 @@
 // partials
 @import "partials/partials.footer";
 @import "partials/partials.header";
+@import "partials/partials.header-nav";
+@import "partials/partials.nav-dropdown-menu";
 
 
 // sections
 @import "components/sections/sections.footer-bottom";
 @import "components/sections/sections.footer-top";
 @import "components/sections/sections.hero-header";
-@import "components/sections/sections.nav-dropdown-menu";
 @import "components/sections/sections.nav-woningen-card";
 
 // organisms
