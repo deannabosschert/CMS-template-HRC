@@ -1,0 +1,21 @@
+  .c-activities {
+    .activities__heading {}
+
+    .activities__text {}
+
+    .activities__activity {
+      &__link {
+        &__img {}
+
+        &__heading {}
+
+        &__text {}
+
+        &:hover {}
+
+        &:active {}
+
+        &:focus {}
+      }
+    }
+  }

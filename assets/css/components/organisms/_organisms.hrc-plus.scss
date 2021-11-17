@@ -1,0 +1,19 @@
+  .c-hrc-plus {
+      .hrc-plus__heading {
+          span {}
+      }
+
+      .hrc-plus__text {}
+
+      .hrc-plus__list {
+          &__listItem {}
+      }
+
+      .hrc-plus__link {
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

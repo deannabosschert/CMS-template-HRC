@@ -1,0 +1,15 @@
+  .c-ons-team {
+      .ons-team__content {
+          &__heading {}
+
+          &__text {}
+
+          &__link {
+              &:hover {}
+
+              &:active {}
+
+              &:focus {}
+          }
+      }
+  }

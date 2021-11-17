@@ -1,0 +1,29 @@
+  .c-cars {
+      .cars__heading {}
+
+      .cars__car {
+          &__link {
+              &__heading {}
+
+              &__text {}
+
+              &__price {
+                  &__amount {}
+              }
+
+              &:hover {}
+
+              &:active {}
+
+              &:focus {}
+          }
+      }
+
+      .cars__readmore {
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

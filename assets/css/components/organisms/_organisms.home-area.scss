@@ -1,0 +1,47 @@
+  .c-home-area {
+      .u-text-invisible {}
+
+      .home-area__nav {
+          &__navItem {
+              button {
+                  &:hover {}
+
+                  &:active {}
+
+                  &:focus {}
+              }
+          }
+
+          .home-area__list__listItem {
+              button {
+                  &:hover {}
+
+                  &:active {}
+
+                  &:focus {}
+              }
+          }
+      }
+
+      .home-area__content {
+          &__heading {}
+
+          &__text {}
+
+          &__link {
+              &:hover {}
+
+              &:active {}
+
+              &:focus {}
+          }
+
+          &__readmore {
+              &:hover {}
+
+              &:active {}
+
+              &:focus {}
+          }
+      }
+  }

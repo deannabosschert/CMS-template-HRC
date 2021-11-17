@@ -1,0 +1,23 @@
+  .c-calendar {
+    h3 {
+      .u-text-invisible {}
+    }
+
+    .fake-date-picker {
+      &:hover {}
+
+      &:active {}
+
+      &:focus {}
+    }
+
+    form {
+      label {
+        h3 {}
+      }
+
+      #select-persons.filter-value {
+        option {}
+      }
+    }
+  }
