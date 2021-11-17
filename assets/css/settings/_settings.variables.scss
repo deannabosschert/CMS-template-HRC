@@ -1,0 +1,57 @@
+///* ========================================================================
+//   #GLOBAL
+//   ======================================================================== */
+
+// The global settings file contains any project-wide variables; things that
+// need to be made available to the entire codebase.
+
+$blue-light: #ebf6fa;
+$blue: #54b4cf;
+$blue-dark: #253a77;
+$green: #7ed321;
+$orange: #f9a424;
+$red: #e93b50;
+$white: #ffffff;
+$grey-dark: #4a4a4a;
+$grey: #8e8e8e;
+$grey-light: #e9e9e9;
+$grey-lighter: #e5e5e5;
+$grey-lightest: #f4f4f4;
+$grey-pale: #f8f8f8;
+
+$font-primary: 'Poppins', helvetica, arial, sans-serif;
+$font-secondary: 'RobotoSlab', helvetica, arial, sans-serif;
+
+$render-mode: optimizeLegibility;
+
+$h1: 2.813rem;
+$h2: 1.8rem;
+$h3: 1.563rem;
+$h4: 0.563rem;
+
+$body-size: 1rem;
+$body-line-height: 1.5rem;
+$body-letter-spacing: 0.5px;
+
+$details-size: 0.8rem;
+
+$weight-light: 300;
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+$trans-def: 0.2s ease-in;
+$border-radius-def: 0.2rem;
+$padding-def: 15%;
+$shadow-def: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.09);
+
+
+
+
+@media all and (min-width: 40rem) {
+  $h1: 4.375rem;
+  $h2: 1.8rem;
+  $h3: 1.2rem;
+  $h4: 0.75rem;
+}
