@@ -1,0 +1,29 @@
+  .c-header-nav {
+      .header-nav__logo {
+          &__heading {
+              &__holiday {}
+
+              &__rentals {}
+
+              &__curacao {}
+          }
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+
+      .header-nav__menu {
+          &__listItem {
+              a {
+                  &:hover {}
+
+                  &:active {}
+
+                  &:focus {}
+              }
+          }
+      }
+  }
