@@ -50,6 +50,15 @@ $padding-def: 15%;
 $shadow-def: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.09);
 
 
+$spacing-tiny: 0.5rem;
+$spacing-small: 1rem;
+$spacing-medium: 1.5rem;
+$spacing-large: 2rem;
+$spacing-huge: 2.5rem;
+
+
+
+
 @media all and (min-width: 40rem) {
   $h1: 4.375rem;
   $h2: 1.8rem;
