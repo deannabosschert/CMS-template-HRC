@@ -1,0 +1,35 @@
+  .c-house-card {
+      .house-card__link {
+          &__heading {}
+
+          &__text {}
+
+          &__pricing {
+              &__new {
+                  &__amount {}
+              }
+
+              &__old {}
+
+              span {}
+          }
+
+          p {}
+
+          &__img {}
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }
+
+  .house-card__link {
+      &:hover {}
+
+      &:active {}
+
+      &:focus {}
+  }

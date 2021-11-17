@@ -1,0 +1,11 @@
+  .c-checklist {
+      .checklist__heading {}
+
+      .checklist__list {
+          &__listItem {
+              &__heading {}
+
+              &__text {}
+          }
+      }
+  }

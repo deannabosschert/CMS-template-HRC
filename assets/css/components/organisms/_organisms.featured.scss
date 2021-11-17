@@ -1,0 +1,39 @@
+  .c-featured {
+      .featured__heading {}
+
+      .featured__house {
+          &__heading {}
+
+          &__list {
+              &__listItem {}
+          }
+
+          &__text {}
+      }
+
+      .featured__price {
+          &__new {
+              &__amount {}
+          }
+
+          &__old {
+              &__amount {}
+          }
+      }
+
+      .featured__link {
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+
+      .featured__readmore {
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

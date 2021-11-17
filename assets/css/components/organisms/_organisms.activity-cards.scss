@@ -1,0 +1,23 @@
+.c-activity-cards {
+    .u-text-invisible {}
+
+    .activity-cards__card {
+        &__link {
+            &__heading {}
+
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__link__link {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+    }
+}
