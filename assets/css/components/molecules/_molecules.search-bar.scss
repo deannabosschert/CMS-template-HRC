@@ -1,0 +1,15 @@
+  .c-search-bar {
+      .search-bar__label {
+          #search-input {}
+      }
+
+      .search-bar__button {
+          .icon.icon-search.icon__blue {}
+
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+      }
+  }

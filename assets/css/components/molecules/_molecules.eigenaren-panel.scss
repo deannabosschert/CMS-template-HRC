@@ -1,0 +1,15 @@
+  .c-eigenaren-panel {
+    .eigenaren-panel__heading {}
+
+    .eigenaren-panel__list {
+      &__listItem {
+        a {
+          &:hover {}
+
+          &:active {}
+
+          &:focus {}
+        }
+      }
+    }
+  }
