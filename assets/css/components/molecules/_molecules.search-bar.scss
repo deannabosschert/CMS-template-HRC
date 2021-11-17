@@ -1,4 +1,7 @@
   .c-search-bar {
+      display: flex;
+      flex-direction: row;
+
       .search-bar__label {
           #search-input {}
       }
