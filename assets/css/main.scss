@@ -1,6 +1,6 @@
 // GENERIC
 @import "generic/generic.box-sizing";
-@import "generic/generic.normalize";
+// @import "generic/generic.normalize";
 @import "generic/generic.reset";
 
 // SETTINGS
@@ -11,6 +11,7 @@
 @import "elements/elements.typography";
 @import "elements/elements.images";
 @import "elements/elements.icons";
+@import "elements/elements.buttons";
 
 // COMPONENTS
 // partials
