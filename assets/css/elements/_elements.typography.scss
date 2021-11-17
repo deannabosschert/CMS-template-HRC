@@ -1,25 +1,48 @@
 /* ==========================================================================
    ELEMENTS- TYPOGRAPHY
    ========================================================================== */
-   @font-face {
-    font-family: 'RobotoSlab';
-    font-display: swap;
-    src: url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.eot');
-    src: url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+@font-face {
+  font-family: 'RobotoSlab';
+  font-display: swap;
+  src: url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.eot');
+  src: url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
     url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.woff2') format('woff2'),
     url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.woff') format('woff'),
     url('~assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+$font-primary: 'Poppins', helvetica, arial, sans-serif;
+$font-secondary: 'RobotoSlab', helvetica, arial, sans-serif;
+$render-mode: optimizeLegibility;
+$body-size: 1rem;
+$body-line-height: 1.5rem;
+$body-letter-spacing: 0.5px;
+$details-size: 0.8rem;
+$weight-light: 300;
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
 
+$h1: 2.813rem;
+$h2: 1.8rem;
+$h3: 1.563rem;
+$h4: 0.563rem;
+
+@media all and (min-width: 40rem) {
+  $h1: 4.375rem;
+  $h2: 1.8rem;
+  $h3: 1.2rem;
+  $h4: 0.75rem;
+}
 
 body {
   color: #4a4a4a;
-  font-family: Poppins,helvetica,arial,sans-serif;
-    word-break: normal;
+  font-family: Poppins, helvetica, arial, sans-serif;
+  word-break: normal;
 }
 
 h1,
@@ -29,36 +52,21 @@ h4,
 h5,
 h6 {
   margin-bottom: 1rem;
-  font-weight: 700;
+  font-weight: $weight-bold;
 }
 
-
-$font-primary: 'Poppins', helvetica, arial, sans-serif;
-$font-secondary: 'RobotoSlab', helvetica, arial, sans-serif;
-
-$render-mode: optimizeLegibility;
-
-$h1: 2.813rem;
-$h2: 1.8rem;
-$h3: 1.563rem;
-$h4: 0.563rem;
-
-$body-size: 1rem;
-$body-line-height: 1.5rem;
-$body-letter-spacing: 0.5px;
-
-$details-size: 0.8rem;
-
-$weight-light: 300;
-$weight-normal: 400;
-$weight-medium: 500;
-$weight-semibold: 600;
-$weight-bold: 700;
-
-@media all and (min-width: 40rem) {
-  $h1: 4.375rem;
-  $h2: 1.8rem;
-  $h3: 1.2rem;
-  $h4: 0.75rem;
+h1 {
+  font-size: $h1;
 }
 
+h2 {
+  font-size: $h2;
+}
+
+h3 {
+  font-size: $h3;
+}
+
+h4 {
+  font-size: $h4;
+}
