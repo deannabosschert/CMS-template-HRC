@@ -1,0 +1,25 @@
+.c-hero-header {
+  .hero-header__content {
+    &__header {
+      &__heading {}
+
+      &__text {}
+
+      a {
+        &:hover {}
+
+        &:active {}
+
+        &:focus {}
+      }
+    }
+
+    &__link {
+      &:hover {}
+
+      &:active {}
+
+      &:focus {}
+    }
+  }
+}

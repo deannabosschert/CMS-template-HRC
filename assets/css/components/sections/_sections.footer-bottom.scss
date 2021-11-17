@@ -1,0 +1,85 @@
+.c-footer-bottom {
+    .footer-bottom__overig {}
+
+    .footer-bottom__nav {
+        .u-text-invisible {}
+
+        &__links {
+            &__heading {}
+
+            &__list {
+                &__listItem {}
+
+                a {
+                    &:hover {}
+
+                    &:active {}
+
+                    &:focus {}
+                }
+            }
+        }
+
+        &__overons {
+            &__heading {}
+
+            &__list {
+                &__listItem {}
+
+                a {
+                    &:hover {}
+
+                    &:active {}
+
+                    &:focus {}
+                }
+            }
+        }
+
+        &__accomodaties {
+            &__heading {}
+
+            &__list {
+                &__listItem {}
+
+                a {
+                    &:hover {}
+
+                    &:active {}
+
+                    &:focus {}
+                }
+            }
+        }
+    }
+
+    .footer-bottom__voorwaarden {
+        .u-text-invisible {}
+
+        &__autoverhuur {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__vakantiehuizen {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__disclaimer {
+            &:hover {}
+
+            &:active {}
+
+            &:focus {}
+        }
+
+        &__copyright {}
+    }
+}
