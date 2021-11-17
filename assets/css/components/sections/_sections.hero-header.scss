@@ -1,9 +1,26 @@
 .c-hero-header {
-  .hero-header__content {
-    &__header {
-      &__heading {}
+  background-image: url(./assets/images/home_background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-      &__text {}
+  padding: 100px;
+  position: relative;
+
+  
+  .hero-header__content {
+    
+    &__header {
+      &__heading {
+        color: $white;
+      }
+
+      &__text {
+        max-width: 500px;
+        color: $white;
+        font-weight: $weight-medium;
+        margin-bottom: $spacing-medium;
+      }
 
       a {
         &:hover {}
