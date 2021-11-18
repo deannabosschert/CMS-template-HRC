@@ -13,6 +13,7 @@
         align-items: center;
         font-size: $h2;
         font-weight: $weight-bold;
+        padding: 0 $spacing-large;
 
         &__holiday {
             color: $blue;
@@ -37,8 +38,11 @@
     .header-nav__menu {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
+        padding: 0 $spacing-large;
+        letter-spacing: 0.5px;
 
         &__listItem {
             a {
