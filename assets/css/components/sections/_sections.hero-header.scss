@@ -3,14 +3,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  padding: 100px;
+  padding: $layout-medium $layout-large;
   position: relative;
 
-  
   .hero-header__content {
-    
     &__header {
+      margin-bottom: $layout-small;
+
       &__heading {
         color: $white;
       }
@@ -32,6 +31,12 @@
     }
 
     &__link {
+      &:after {
+        content: "⭢";
+        vertical-align: middle;
+        margin-left: $spacing-small;
+      }
+
       &:hover {}
 
       &:active {}
