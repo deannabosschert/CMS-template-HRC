@@ -1,4 +1,10 @@
   .favorite-button {
+    margin: 0 $spacing-tiny;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      
+
       span {}
 
       svg {
