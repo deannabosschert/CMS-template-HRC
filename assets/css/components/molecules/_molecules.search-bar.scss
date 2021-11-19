@@ -6,8 +6,6 @@
 
       .search-bar__label {
           #search-input {
-              outline: none;
-              border: none;
               border-bottom: 2px solid $grey-light;
               font-size: $details-size;
               margin: 0 $spacing-default;
@@ -16,7 +14,6 @@
 
       .search-bar__button {
           margin: 0 $spacing-tiny;
-          background-color: transparent;
 
           .icon.icon-search.icon__blue {}
 
