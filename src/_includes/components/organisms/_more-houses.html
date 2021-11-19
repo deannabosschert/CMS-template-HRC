@@ -1,8 +1,8 @@
 <section class="c-more-houses">
     <h2 class="more-houses__heading">Wat voor verblijf u ook zoekt, wij hebben het</h2>
-
-
-    {% include "../molecules/_house-card.html" %}
-
-     <a class="more-houses__link" href="/vakantiehuizen">Alles bekijken</a>
+    <!-- if array = [1,2,3,4,5,6] -->
+    {% for item in moreHouses %}
+      {% include "../molecules/_house-card.html" %}  <!-- refactor included module to dynamic data -->
+    {% endfor %}
+    <a class="more-houses__link" href="/vakantiehuizen">Alles bekijken</a>
 </section>
