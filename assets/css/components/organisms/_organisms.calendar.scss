@@ -4,73 +4,99 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-
     position: absolute;
     bottom: -3rem;
-    left: calc(50% - 350px);
-    max-width: 700px;
+    max-width: $width-huge;
     width: 100%;
-    height: 5.25rem;
-
-    background-color: #fff;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-
+    height: $height-middle;
+    background-color: $white;
+    box-shadow: $box-shadow-default;
+    border-radius: $border-radius-def;
     z-index: 1;
+  }
+
+  .calendar__datepicker {
+    display: flex;
+    flex-direction: column;
+    font-size: $details-size;
+    color: $grey;
+    cursor: pointer;
+    border-bottom: 1px solid $grey-light;
+
+    width: 50%;
+    height: 100%; 
+
+    padding: $layout-tiny $layout-smaller;
+
+    &:hover {}
+
+    &:active {}
+
+    &:focus {}
+  }
+
+  .calendar__datepicker__heading {
+    font-size: $details-size;
+    color: $grey;
+    text-align: left;
+    margin-bottom: $spacing-small;
+    text-transform: uppercase;
+  }
+
+  .calendar-datepicker__button {
+    font-size: $details-size;
+    color: $grey;
+    text-align: left;
+    }
+
+  .calendar__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 $spacing-medium;
+    grid-template-rows: 1fr 1fr;
+    font-size: $body-size;
+    width: 50%;
+    max-height: 100%;
+  }
+
+  .calendar__form__label {
+    padding-top: $layout-tiny;
 
     h3 {
-      font-size: .7rem;
-      color: #8e8e8e;
-      margin-bottom: .3rem;
+      font-size: $details-size;
+      color: $grey;
       text-transform: uppercase;
-
-      .u-text-invisible {}
+      margin: 0;
     }
+  }
 
-    .fake-date-picker {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+  .calendar__form__select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // width: 100%;
+    justify-content: space-between;
+    font-weight: $weight-bold;
+    border: none;
+    vertical-align: middle;
+ 
+    align-self: center;
+    align-content: center;
+    padding-bottom: $layout-tiny;
+    option {
 
-      cursor: pointer;
-      border-bottom: 1px solid #e9e9e9;
-      font-size: 11px;
-      padding: 9px;
-      color: #8e8e8e;
-
-      &:hover {}
-
-      &:active {}
-
-      &:focus {}
     }
+  }
 
-    form {
-      display: flex;
-      font-size: 1rem;
-
-      label {
-        width: 100%;
-
-        h3 {
-          font-size: .7rem;
-          color: #8e8e8e;
-          text-transform: uppercase;
-        }
-      }
-
-      #select-persons.filter-value {
-        position: relative;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        font-weight: $weight-bold;
-
-        option {}
-      }
-
-      button {
-        background-color: $orange;
-        height: 100%;
-      }
-    }
+  .calendar__form__button {
+    background-color: $orange;
+    height: 100%;
+    font-weight: $weight-bold;
+    color: $white;
+    padding: $spacing-tiny $spacing-huge;
+    border-radius: 0 $border-radius-def $border-radius-def 0;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;
   }

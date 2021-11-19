@@ -48,7 +48,9 @@ $trans-def: 0.2s ease-in;
 $border-radius-def: 0.2rem;
 $padding-def: 15%;
 $shadow-def: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.09);
+$box-shadow-default: 0 2px 4px 0 rgb(0 0 0 / 20%);
 
+// usually for (small) margins
 $spacing-tiny: 5px;
 $spacing-small: 10px;
 $spacing-default: 15px;
@@ -56,6 +58,7 @@ $spacing-medium: 25px;
 $spacing-large: 30px;
 $spacing-huge: 40px;
 
+// usually for paddings
 $layout-tiny: 12.5px;
 $layout-smaller: 25px;
 $layout-small: 50px;
@@ -63,8 +66,6 @@ $layout-default: 100px;
 $layout-medium: 100px;
 $layout-large: 200px;
 $layout-huge: 300px;
-
-
 
 $width-tiny: 25px;
 $width-smaller: 50px;
@@ -75,6 +76,15 @@ $width-large: 600px;
 $width-huge: 800px;
 $width-hughmongus: 1000px;
 
+$height-tiny: 25px;
+$height-smaller: 37.5px;
+$height-small: 50px;
+$height-default: 75px;
+$height-middle: 87.5px; // mostly for the calendar.
+$height-medium: 100px;
+$height-large: 150px;
+$height-huge: 200px;
+$height-hughmongus: 300px;
 
 
 
