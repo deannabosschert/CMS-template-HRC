@@ -1,0 +1,13 @@
+.btn--primary {
+  color: #fff;
+  background: #54b4cf;
+  border: .1rem solid #54b4cf;
+  border-radius: .2rem;
+  padding: .6rem 1.2rem;
+  transition-property: color, border-color;
+  transition: .2s ease-in;
+}
+
+.icon {
+  color: #54b4cf;
+}

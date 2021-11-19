@@ -1,9 +1,35 @@
 .c-hero-header {
-  .hero-header__content {
-    &__header {
-      &__heading {}
+  background-image: url(./assets/images/home_background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: $layout-medium $layout-huge;
+  position: relative;
 
-      &__text {}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .hero-header__content {
+    width: 100%;
+    max-width: $width-huge;
+    align-self: flex-start;
+
+    &__header {
+      margin-bottom: $layout-small;
+
+      &__heading {
+        color: $white;
+      }
+
+      &__text {
+        max-width: 500px;
+        color: $white;
+        font-weight: $weight-medium;
+        margin-bottom: $spacing-medium;
+      }
 
       a {
         &:hover {}
@@ -15,6 +41,12 @@
     }
 
     &__link {
+      &:after {
+        content: "⭢";
+        vertical-align: middle;
+        margin-left: $spacing-small;
+      }
+
       &:hover {}
 
       &:active {}
