@@ -5,8 +5,8 @@
     justify-content: space-between;
     align-content: center;
     position: absolute;
-    bottom: -3rem;
-    max-width: $width-huge;
+    bottom: -43.75px;  /// $height-middle divided by 2, calc won't work due to the negative value
+    max-width: $width-xlarge;
     width: 100%;
     height: $height-middle;
     background-color: $white;
