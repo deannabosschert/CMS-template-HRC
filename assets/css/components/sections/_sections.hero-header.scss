@@ -3,10 +3,20 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: $layout-medium $layout-large;
+  padding: $layout-medium $layout-huge;
   position: relative;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
   .hero-header__content {
+    width: 100%;
+    max-width: $width-huge;
+    align-self: flex-start;
+
     &__header {
       margin-bottom: $layout-small;
 
