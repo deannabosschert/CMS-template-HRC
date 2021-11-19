@@ -36,6 +36,8 @@ $body-size: 1rem;
 $body-line-height: 1.5rem;
 $body-letter-spacing: 0.5px;
 
+$card-line-height: 1.3rem;
+
 $details-size: 0.8rem;
 
 $weight-light: 300;
@@ -49,6 +51,7 @@ $border-radius-def: 0.2rem;
 $padding-def: 15%;
 $shadow-def: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.09);
 $box-shadow-default: 0 2px 4px 0 rgb(0 0 0 / 20%);
+$text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
 
 // usually for (small) margins
 $spacing-tiny: 5px;
