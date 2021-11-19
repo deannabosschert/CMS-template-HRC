@@ -11,3 +11,9 @@
 .icon {
   color: #54b4cf;
 }
+
+.link-arrow:after {
+    content: "⭢";
+    vertical-align: middle;
+    margin-left: $spacing-small;
+}
