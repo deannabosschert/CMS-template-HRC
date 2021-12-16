@@ -1,35 +1,87 @@
   .c-house-card {
-      .house-card__link {
-          &__heading {}
+    .house-card__link {
+      // display: flex;
+      // flex-direction: column-reverse;  
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: $height-large $height-default 1fr;
+      grid-template-areas:
+        "image image"
+        "pricing heading"
+        "pricing text";
+        grid-gap: 0 0;
+      justify-content: center;
 
-          &__text {}
+      &__heading {
+        font-size: $font-heading;
+        color: $grey-dark;
+        font-weight: $weight-bold;
+        grid-area: heading;
+        align-self: flex-end;
+      }
 
-          &__pricing {
-              &__new {
-                  &__amount {}
-              }
+      &__text {
+        font-size: $details-size;
+        color: $grey;
+        grid-area: text;
+      }
 
-              &__old {}
+      &__pricing {
+        display: flex;
+        flex-direction: column;
+        grid-area: pricing;
+        padding-right: 13px;
+        justify-content: space-evenly;
+  
 
-              span {}
+        &__new {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          max-width: 100%;
+
+          &__text {
+
           }
 
-          p {}
+          &__amount {
+            color: $orange;
+            font-size: $h3;
+          }
+        }
 
-          &__img {}
+        &__old {
 
-          &:hover {}
+        }
 
-          &:active {}
-
-          &:focus {}
+        span {
+          max-width: fit-content;
+        }
       }
-  }
 
-  .house-card__link {
+      p {}
+
+      &__img {
+        min-width: 100%;
+        height: $height-large;
+        object-fit: cover;
+        margin-bottom: $spacing-default;
+        grid-area: image;
+      }
+
       &:hover {}
 
       &:active {}
 
       &:focus {}
+    }
+  }
+
+  .house-card__link {
+    &:hover {}
+
+    &:active {}
+
+    &:focus {}
   }
