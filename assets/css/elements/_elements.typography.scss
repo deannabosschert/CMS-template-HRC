@@ -112,18 +112,18 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1rem;
+  margin-bottom: $spacing-default;
   font-weight: $weight-bold;
 }
 
 h1 {
   font-size: $h1;
-  margin-bottom: 2rem;
+  margin-bottom: $spacing-large;
 }
 
 h2 {
   font-size: $h2;
-  margin-bottom: 1.5rem;
+  margin-bottom: $spacing-medium;
 }
 
 h3 {
@@ -132,4 +132,10 @@ h3 {
 
 h4 {
   font-size: $h4;
+}
+
+p, i {
+  letter-spacing: $body-letter-spacing;
+  line-height: $body-line-height;
+  margin-bottom: $spacing-tiny;
 }
