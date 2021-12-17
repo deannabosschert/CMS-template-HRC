@@ -1,8 +1,19 @@
   .c-betaalmogelijkheden {
+ 
+    
       .betaalmogelijkheden__heading {}
 
       .betaalmogelijkheden__logos {
-          height: $height-tiny;
-          &__img {}
+        max-width: 70%;
+        height: $height-small;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        margin-bottom: $spacing-default;
+          &__img {
+              height: $height-tiny;
+          }
       }
   }
