@@ -26,3 +26,9 @@ html, body {
 main, footer {
   width: $width-page;
 }
+
+body {
+  width: 100vw;
+  border-bottom: 2px dotted $blue;
+  margin-bottom: $spacing-default;
+}
