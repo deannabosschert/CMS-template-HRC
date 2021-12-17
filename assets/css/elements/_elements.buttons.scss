@@ -6,6 +6,13 @@
   padding: .6rem 1.2rem;
   transition-property: color, border-color;
   transition: .2s ease-in;
+
+  &:hover {
+    color: $blue;
+    border: 1px solid $blue;
+    background-color: $white;
+    cursor: pointer;
+  }
 }
 
 .icon {
